@@ -1,0 +1,119 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+
+.main h1 i{
+    font-size: 70px;
+}
+
+.main h1 a {
+   
+    text-decoration: none;
+    font-size: 40px;
+    color: rgb(161, 57, 221);
+    font-style: unset;
+    margin-top: 50px;
+}
+.main{
+    width: 100px;
+}
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid rgb(161, 57, 221) ;
+    border-radius: 10px;
+    width: 500px;
+    padding: 25px;   
+  
+}
+h3{
+    position: relative;
+    margin: -20px 0 0 13px;
+    font-size: 23px;
+    font-family:sans-serif ;
+    
+}
+input{
+    border: 1px solid #d5d2d2;
+    border-radius: 5px;
+    height: 35px;
+    padding: 0 10px;
+    font-size: 15px;
+    outline: none;
+}
+input:focus{
+    border: 1.5px solid rgb(161, 57, 221);
+}
+.name{
+    display: inline-block;
+}
+input[type="name"]{
+    display: block;
+    margin: 30px 0 0 10px;
+}
+input[type="username"]{
+    display: block;
+    margin: 10px 0 0 10px;
+    width: 419px;
+}
+.pass{
+    display: inline-block;
+}
+.password{
+    display: block;
+    width: 140px;
+    margin: 0 5px 0 10px;
+}
+a{
+    display: block;
+    position: relative;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.line1{
+    font-size: 15px;
+    margin: -20px 0 0 30px;
+    color: black;
+}
+.line3{
+    font-size: 15px;
+    margin: -20px 0 0 30px;
+    color: black;
+}
+label{
+    position: relative;
+    top: -28px;
+    left: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #555;
+    pointer-events: none;
+    transition: .2s all;
+}
+input[type="submit"]{
+    background:rgb(161, 57, 221) ;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    font-size: 15px;
+    margin: 40px 0 30px 180px;
+}
+input[type="phone"]{
+    display: block;
+    margin: 10px 0 0 10px;
+    width: 419px;
+}
+.line4{
+    font-size: 15px;
+    margin: -0px 0 0 30px;
+    color: rgb(0, 0, 0);
+    
+}
+input:focus ~ label,
+input:valid ~ label{
+    top: -49px;
+    left: 15px;
+    background: white;
+    padding: 0 5px;
+    font-size: 10px;
+    color: rgb(161, 57, 221);
+}

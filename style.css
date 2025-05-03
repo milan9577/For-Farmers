@@ -1,0 +1,78 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+*{
+    margin: 0;
+    padding: 0;
+    
+  
+   
+}
+.header{
+    background: rgb(161, 57, 221);
+    height: 100px;
+    width: auto;
+      
+}
+.header h1 i{
+    font-size: 70px;
+}
+.header h1{
+    padding: 20px;
+    
+}
+.header h1 a {
+   
+    text-decoration: none;
+    font-size: 40px;
+    color: rgb(252, 252, 252);
+    font-style: unset;
+    margin-top: 50px;
+
+}
+.sign-up-form{
+    color:rgb(161, 57, 221);
+    font-family: serif;
+    width: 300px;
+    height: 250px;
+    
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+}
+.createacc{
+    padding-left: 0%;
+    padding-top: 31%;
+    text-align: center;
+}
+.input-box{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+    border: 1px solid #999;
+    outline: none;
+}
+.btn{
+    color: white;
+    background-color:  rgb(161, 57, 221);
+    width: 50%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 18px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+input[type=text],input[type=password]{
+    border: none;
+    outline: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+
